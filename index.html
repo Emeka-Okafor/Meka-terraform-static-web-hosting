@@ -3,119 +3,96 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Car Hire Purchase Agreement</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <title>Eje Mac-David Alechenu</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Roboto&display=swap" rel="stylesheet">
   <style>
     body {
-      font-family: Arial, sans-serif;
-      margin: 40px;
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background: linear-gradient(135deg, #f9f9f9, #e0f7fa);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .card {
+      background-color: #ffffff;
+      border-radius: 20px;
+      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+      max-width: 600px;
+      padding: 2rem;
+      text-align: center;
+      animation: fadeInUp 1.2s ease forwards;
+      transform: translateY(50px);
+      opacity: 0;
+    }
+
+    .card h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2.5rem;
+      color: #00796b;
+      margin-bottom: 0.5rem;
+    }
+
+    .card h2 {
+      font-size: 1.4rem;
+      color: #004d40;
+      margin-bottom: 1rem;
+      font-weight: normal;
+    }
+
+    .card p {
+      font-size: 1.1rem;
       line-height: 1.6;
-      background: #f9f9f9;
       color: #333;
     }
-    .container {
-      background: #fff;
-      padding: 30px;
-      border-radius: 10px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
-      max-width: 800px;
-      margin: auto;
+
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(50px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
     }
-    h1, h2 {
-      text-align: center;
-      color: #2c3e50;
-    }
-    hr {
-      border: none;
-      border-top: 1px dashed #aaa;
-      margin: 20px 0;
-    }
-    table {
-      width: 100%;
-      border-collapse: collapse;
-    }
-    td {
-      padding: 8px;
-      vertical-align: top;
-    }
-    .signature {
-      margin-top: 50px;
-      display: flex;
-      justify-content: space-between;
-    }
-    .signature div {
-      width: 45%;
-      text-align: center;
-    }
-    .btn-download {
-      display: block;
-      margin: 30px auto;
-      padding: 10px 20px;
-      background: #3498db;
-      color: white;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-      font-size: 16px;
+
+    @media (max-width: 600px) {
+      .card {
+        margin: 1rem;
+        padding: 1.5rem;
+      }
+
+      .card h1 {
+        font-size: 2rem;
+      }
+
+      .card p {
+        font-size: 1rem;
+      }
     }
   </style>
 </head>
 <body>
-  <div class="container animate__animated animate__fadeIn">
-    <h1>Car Hire Purchase Agreement</h1>
-    <p>Date: <strong id="today-date"></strong></p>
-
-    <h2>Partner Information</h2>
-    <table>
-      <tr><td><strong>Full Name:</strong></td><td>Emma Jonson Difi Akegor</td></tr>
-      <tr><td><strong>House Address:</strong></td><td>FHA Lugbe Abuja</td></tr>
-      <tr><td><strong>Phone Number:</strong></td><td>+2348036758087</td></tr>
-    </table>
-
-    <hr>
-
-    <h2>Driver Information</h2>
-    <table>
-      <tr><td><strong>Full Name:</strong></td><td>Johnmichael Emeka Okafor</td></tr>
-      <tr><td><strong>House Address:</strong></td><td>David Ejoor street, Durumi, Abuja</td></tr>
-      <tr><td><strong>Phone Number:</strong></td><td>+2348030710947</td></tr>
-      <tr><td><strong>Date of Birth:</strong></td><td>8th of April, 1984</td></tr>
-    </table>
-
-    <h2>Agreement Terms</h2>
-    <ol>
-      <li>The Partner shall provide a vehicle to the Driver for commercial transportation purposes.</li>
-      <li>The Driver agrees to make payments on a daily, weekly, or monthly basis toward the agreed value of the vehicle.</li>
-      <li>The total payment amount and schedule shall be mutually agreed upon and documented separately.</li>
-      <li>Ownership of the vehicle shall remain with the Partner until full payment has been received.</li>
-      <li>Once the full amount is paid, ownership of the vehicle will be transferred to the Driver.</li>
-      <li>The Driver shall maintain the vehicle in good working condition and is responsible for all day-to-day expenses.</li>
-      <li>Insurance, licensing, and registration shall be discussed and agreed upon before the vehicle is handed over.</li>
-      <li>Any breach of the agreement terms may result in repossession of the vehicle and forfeiture of payments made.</li>
-      <li>Both parties agree to resolve disputes amicably and may involve legal mediation if necessary.</li>
-    </ol>
-
-    <div class="signature">
-      <div>
-        ___________________________<br>
-        Partner's Signature<br>
-        Date: _____________________
-      </div>
-      <div>
-        ___________________________<br>
-        Driver's Signature<br>
-        Date: _____________________
-      </div>
-    </div>
-
-    <button class="btn-download" onclick="window.print()">Download as PDF</button>
+  <div class="card">
+    <h1>Eje Mac-David Alechenu</h1>
+    <h2>Pastor & Mentor</h2>
+    <p>
+      Eje Mac-David Alechenu is a man of profound integrity, calmness, and spiritual depth. 
+      As a pastor, he exemplifies wisdom and grace in every interaction, always offering 
+      encouragement, guidance, and love to those around him.
+    </p>
+    <p>
+      His presence brings peace, and his behavior is marked by humility, gentleness, and 
+      unwavering faith. He lives a life that inspires others to be better and to lead with 
+      compassion and purpose.
+    </p>
   </div>
-
-  <script>
-    document.getElementById('today-date').textContent = new Date().toLocaleDateString();
-  </script>
 </body>
 </html>
+
 
 
 
