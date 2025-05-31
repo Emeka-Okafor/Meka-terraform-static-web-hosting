@@ -1,4 +1,4 @@
-# This is the latest version of my Static Website host set up
+# This is the latest version of my Static Website host set up 
 resource "aws_s3_bucket" "mybucket" {
     bucket = var.mybucketname_2025
   
